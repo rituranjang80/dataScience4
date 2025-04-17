@@ -1,0 +1,5 @@
+backgroundRemove.py
+Auto_Labeling_Transparent.py
+prepare_dataset.py
+train_model.py
+test_model.py

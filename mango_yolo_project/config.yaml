@@ -1,0 +1,18 @@
+# Auto-labeling Configuration
+image_folder: "Mango_leaf"
+train_ratio: 0.8
+
+# Label Generation (assuming single centered object)
+label_margin: 0.1  # margin around the auto-generated bounding box
+class_id: 0        # 0 for mango_leaf
+
+# Training Configuration
+model_type: "yolov8n.pt"
+epochs: 100
+imgsz: 640
+batch: 16
+augment: True
+hsv_h: 0.015
+hsv_s: 0.7
+hsv_v: 0.4
+class_name: "mango_leaf"

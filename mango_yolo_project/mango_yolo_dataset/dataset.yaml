@@ -1,0 +1,5 @@
+names:
+  0: mango_leaf
+path: C:\temp\video\training\mango_yolo_project\mango_yolo_dataset
+train: images/train
+val: images/val
